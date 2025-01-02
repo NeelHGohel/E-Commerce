@@ -31,7 +31,7 @@ function Navbar(){
                 <a className="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Admin
                 </a>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu overf">
                   <li><hr className="dropdown-divider"/></li>
                   <li>Log Out</li>
                 </ul>
