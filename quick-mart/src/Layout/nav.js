@@ -14,19 +14,16 @@ function Navbar() {
             <li className="nav-item">
               <a className="nav-link" href="#">Link</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
           </ul>
           <form className="d-flex" role="search">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
             <button className="btn btn-outline-success" type="submit">Search</button>
           </form>
-          <ul className="navbar-nav">
+          <ul className="navbar-nav" style={{marginRight: "85px"}}>
             <li className="nav-item">
               {/* <Link className="nav-link text-dark mx-3 " to="/home/cart"><i class="fa-solid fa-cart-shopping" style={{fontSize: "20px"}}></i>Cart</Link> */}
             </li>
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown" >
               <a className="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Admin
               </a>
